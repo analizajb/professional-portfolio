@@ -1,0 +1,45 @@
+body {
+    background-color: E5E5E5;
+}
+
+h1 {
+    font: Playfair;
+    font-size: 48px;
+    font-weight: normal;
+    color: black;
+}
+
+header {
+    padding: 20px;
+    color: black;
+    font-family: playfair;
+    background-color: D6B8B8;
+    border: 1 1 1 1;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: Playfair;
+    font-size: 30px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
