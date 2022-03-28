@@ -52,8 +52,27 @@
 
  section {
      padding: 60px;
+     ;
   }
 
+  .intro {
+     
+  }
+  
+ .section-title {
+    font-size: 55px;
+    display: inline-block;
+    padding: 0 50px 20px 50px;
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    border-bottom: 1px solid;
+    border-color: #000000;
+    margin-bottom: 35px;
+    color: #000000;
+    text-align: center;
+ }
   /*FOOTER*/
  footer {
      background: #ac8585;
@@ -67,4 +86,8 @@
      color: black;
      font-size: 30px;
      margin: 0;
+ }
+
+ .intro {
+
  }
