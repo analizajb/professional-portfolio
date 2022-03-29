@@ -56,7 +56,20 @@
   }
 
   .intro {
-     
+     text-align:left;
+  }
+
+  .intro p {
+      text-align: center;
+      line-height: 1.9;
+      color: #000000;
+      width: 80%;
+      font-size: 20px;
+      margin: 0 auto;
+  }
+
+  .img {
+      background-color: rgb(114, 116, 116);
   }
   
  .section-title {
