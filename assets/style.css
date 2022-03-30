@@ -12,20 +12,19 @@
     
   /* START HEADER */
  header {
-     padding: 20px 35px;
+     padding: 0px 35px;
      font-family: 'Playfair Display', serif;
      background: #D6B8B8;
      border: 1px solid #ac8585;
     }
 
  header h1 {
-     margin: 0;
-     display: inline;
+     margin-top: 25px;
+     display:inline;
      font-family: 'Playfair Display', serif;
      font-size: 48px;
      font-weight: normal;
      background-color: #D6B8B8;
-     
     }
 
  header a {
@@ -33,19 +32,22 @@
      color: black;
     }
 
- header nav {
-     float: right;
-     margin: 7px 0;
-    }
-
- header nav ul li {
-     display: inline;
+ .navbar {
+     width: 100%;
+     background-color:#D6B8B8;
+     overflow: auto;
  }
- 
- header nav ul li a {
-     margin: 0 70px;
-     font-weight: lighter;
-     font-size: 30px;
+
+ .navbar a {
+     float: right;
+     padding: 12px;
+     color: #000000;
+     font-size: 20px;
+     text-decoration: none;
+ }
+
+ .navbar a:hover {
+     background-color:#ac8585;
  }
 
  .rounded {
@@ -111,6 +113,4 @@
      margin: 0;
  }
 
- .intro {
-
- }
+ 
