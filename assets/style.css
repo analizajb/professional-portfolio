@@ -12,6 +12,7 @@
     
   /* START HEADER */
  header {
+     position: -webkit-sticky;
      position: sticky;
      top: 0;
      padding: 20px 35px;
@@ -37,7 +38,7 @@
  .navbar {
      width: 100%;
      background-color:#D6B8B8;
-     display: inline;
+     display:inline;
  }
 
  .navbar a {
@@ -52,30 +53,30 @@
  .navbar a:hover {
      background-color:#ac8585;
  }
-
+ /* END HEADER */
  .rounded {
      float: left;
      width: 300px;
-     margin: auto;
+     margin: 50px;
+     padding: 20px;
  }
 
  .rounded img {
      border-radius: 50%;
  }
 
- /* END HEADER */
-
  section {
-     padding: 80px;
-     ;
+     padding: 100px;
   }
-
+ .about {
+     text-align: center;
+ }
+ 
   .intro {
-     text-align:left;
+      text-align: justify;
   }
 
   .intro p {
-      text-align: center;
       line-height: 1.9;
       color: #000000;
       width: 80%;
@@ -83,23 +84,49 @@
       margin: 0 auto;
   }
 
+  .intro ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color:#E1DEDE;
+  }
+
+  .intro li {
+     float: left;
+  }
+
+  .intro li a {
+      font-size: 30px;
+      display: block;
+      color: #000000;
+      text-align: center;
+      padding: 30px;
+      text-decoration: none;
+  }
+
+  .link {
+      font-weight: bold;
+  }
+
   .img {
       background-color: rgb(114, 116, 116);
   }
   
  .section-title {
-    font-size: 55px;
-    display:flex;
-    padding: 0 50px 20px 50px;
-    padding-top: 0px;
-    padding-right: 30px;
-    padding-bottom: 0px;
-    padding-left: 30px;
-    border-bottom: 1px solid;
-    border-color: #000000;
-    margin-bottom: 35px;
-    color: #000000;
-    text-align: center;
+     font-size: 55px;
+     display: inline-block;
+     margin-bottom: 35px;
+     padding: 0 50px 20px 50px;
+     padding-top: 0px;
+     padding-right: 30px;
+     padding-bottom: 0px;
+     padding-left: 30px;
+     border-bottom: 1px solid;
+     border-color: #000000;
+     margin-bottom: 35px;
+     color: #000000;
+     text-align: left;
  }
   /*FOOTER*/
  footer {
@@ -116,4 +143,14 @@
      margin: 0;
  }
 
- 
+ @media screen and (max-width: 980px) {
+     header {
+      position: relative;
+     }
+ }
+
+ @media screen and (max-width: 750px) {
+     header {
+        position: relative;
+     }
+ }
