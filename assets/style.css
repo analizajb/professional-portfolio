@@ -48,10 +48,20 @@
      font-size: 30px;
  }
 
+ .rounded {
+     float: left;
+     width: 300px;
+     margin: auto;
+ }
+
+ .rounded img {
+     border-radius: 50%;
+ }
+
  /* END HEADER */
 
  section {
-     padding: 60px;
+     padding: 80px;
      ;
   }
 
@@ -74,7 +84,7 @@
   
  .section-title {
     font-size: 55px;
-    display: inline-block;
+    display:flex;
     padding: 0 50px 20px 50px;
     padding-top: 0px;
     padding-right: 30px;
