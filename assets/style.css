@@ -68,10 +68,16 @@
  section {
      padding: 100px;
   }
+
  .about {
      text-align: center;
  }
- 
+
+ .about p {
+     text-align: left;
+     font-size: 24px;
+ }
+
   .intro {
       text-align: justify;
   }
