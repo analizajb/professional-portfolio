@@ -146,10 +146,10 @@
   }
 
   .link:hover {
-     background-color:#ac8585
-     color: #ac8585;
+     color: #000000;
+     background-color:#ac8585;
      border: solid 1px black;
-     border-radius: 40%;
+     border-radius: 50%;
      background: #ac8585;
 
   }
