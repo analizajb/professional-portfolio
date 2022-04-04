@@ -111,10 +111,12 @@
       width: 80%;
       font-size: 20px;
       margin: 0 auto;
+      padding: 10px;
   }
   
   .intro p a {
-      flex: column;
+      display: flex;
+      flex:auto;
      
   }
 
@@ -158,6 +160,7 @@
   
  .section-title {
      font-size: 55px;
+     margin: 10px;
      display: inline-block;
      border-bottom: 1px solid;
      border-color: #000000;
