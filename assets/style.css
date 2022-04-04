@@ -68,13 +68,15 @@
 
  section {
      flex: row;
-     padding: 50px;
+     padding: 20px;
   }
 
   .title-project {
-      padding: 30px;
-      font-size: 30px;
-      color: #000000;
+     font-size: 40px;
+     display: inline;
+     border: 2px solid #ac8585;
+     background-color: #D6B8B8;
+     color: #000000;
   }
 
 
@@ -87,7 +89,7 @@
       
   }
 
-  .projects:hover {
+  .project-img:hover {
      filter: blur(2px);
      -webkit-filter: blur(2px);
   }
@@ -102,7 +104,7 @@
  }
 
   .intro {
-      text-align: justify;
+      text-align: left;
   }
 
   .intro p {

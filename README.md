@@ -10,7 +10,7 @@ Contained is my professional portfolio that captures who I am, my work and ways 
 https://analizajb.github.io/professional-portfolio/
 
 ## Screenshot 
-...tbd
+![Alt text](./assets/images/_C__Users_Home_OneDrive_Desktop_projects_professional-portfolio_index.html.png "Optional title")
 
 ## Made by
 Analiza Boehning
