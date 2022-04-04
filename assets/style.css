@@ -19,6 +19,8 @@
      font-family: 'Playfair Display', serif;
      background: #D6B8B8;
      border: 1px solid #ac8585;
+     display: flex;
+     flex-direction: row;  
     }
 
  header h1 {
@@ -38,7 +40,8 @@
  .navbar {
      width: 100%;
      background-color:#D6B8B8;
-     display:inline;
+     display:flex;
+     flex-direction: row;
  }
 
  .navbar a {
@@ -66,8 +69,76 @@
  }
 
  section {
+     flex: row;
      padding: 100px;
   }
+
+  .title-project {
+      padding: 10px;
+      font-size: 20px;
+      color: #000000;
+  }
+
+  span {
+      padding: 0%;
+      margin: none;
+      text-decoration: none;
+      font-size: 12px;
+      color: #000000;
+  }
+
+  img {
+      max-width: 100%;
+  }
+
+  .projects {
+      display: flex;
+      flex: 1;
+      flex-direction: row;
+  }
+
+ .project1 {
+     margin: 10px;
+     background-image: url("./images/hero-bg.jpg");
+     background-position:inherit; 
+     background-size: cover;
+     height: 400px;
+     width: 900px;
+    }
+
+ .project1:hover {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+ }
+
+ .project2 {
+     margin: 10px;
+     background-image: url("./images/queen-photo.jpg");
+     background-position: center;
+     background-size: cover;
+     height: 400px;
+     width: 900px;
+    
+ }
+
+ .project2:hover {
+     filter: blur(2px);
+     -webkit-filter: blur(2px);
+ }
+
+ .project3 {
+     margin: 10px;
+     background-image: url("./images/analizajb.github.io_code-refactor_\ \(1\).png");
+     background-position: center;
+     background-size: cover;
+     height: 400px;
+     width: 900px;
+ }
+
+ .project3:hover {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+ }
 
  .about {
      text-align: center;
@@ -88,6 +159,11 @@
       width: 80%;
       font-size: 20px;
       margin: 0 auto;
+  }
+  
+  .intro p a {
+      flex: column;
+     
   }
 
   .intro ul {
@@ -113,6 +189,15 @@
 
   .link {
       font-weight: bold;
+  }
+
+  .link:hover {
+     background-color:#ac8585
+     color: #ac8585;
+     border: solid 1px black;
+     border-radius: 40%;
+     background: #ac8585;
+
   }
 
   .img {

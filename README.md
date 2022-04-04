@@ -6,7 +6,8 @@ Contained is my professional portfolio that captures who I am, my work and ways 
 * CSS
 
 ## Live url
-...tbd
+
+https://analizajb.github.io/professional-portfolio/
 
 ## Screenshot 
 ...tbd
