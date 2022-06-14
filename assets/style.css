@@ -32,7 +32,7 @@
 
  header a {
      text-decoration: none;
-     color: black;
+     color: rgb(110, 78, 78);
     }
 
  .navbar {
@@ -45,14 +45,14 @@
  .navbar a {
      float: right;
      padding: 12px;
-     color: #000000;
+     color: #876363;
      font-size: 20px;
      text-decoration: none;
      border-bottom: 1px solid black;
  }
 
  .navbar a:hover {
-     background-color:#ac8585;
+     background-color:#2b1d1d;
  }
  /* END HEADER */
  .rounded {
@@ -75,8 +75,8 @@
      font-size: 40px;
      display: inline;
      border: 2px solid #ac8585;
-     background-color: #D6B8B8;
-     color: #000000;
+     background-color: #d1aaaa;
+     color: #4a3737;
   }
 
 
