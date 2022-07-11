@@ -12,7 +12,7 @@
     
   /* START HEADER */
  header {
-     position: -webkit-sticky;
+     position:-webkit-sticky;
      position: sticky;
      top: 0;
      padding: 20px 35px;
@@ -184,14 +184,19 @@
      margin: 0;
  }
 
- @media screen and (max-width: 980px) {
-     header {
-      position: relative;
-     }
- }
-
- @media screen and (max-width: 750px) {
-     header {
-        position: relative;
-     }
- }
+ /* MEDIA QUERY FOR TABLETS AND SMALLER */
+ /* @media screen and (max-width: 768px) {
+    header h1 { */
+      /* this will be applied on any screen between 768px and 575px */
+      /* font-size: 80px;
+      color: tomato
+    }
+ } */
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+ /* @media screen and (max-width: 575px) {
+    header h1 {
+      /* this will be applied on any screen smaller than 575px */
+      /* font-size: 100px;
+    }
+ } */ 
