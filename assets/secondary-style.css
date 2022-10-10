@@ -1,0 +1,17 @@
+:root {
+    --main-text-color: #024e76;
+    --header-text-color: white;
+    --primary-color: #7395ae;
+    --secondary-color: #999991;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #ffffff;
+    font-family: "Quando", serif;
+  }

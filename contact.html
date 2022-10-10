@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="stylesheet" href="./assets/secondary-style.css"/> -->
+    <link rel="stylesheet" href="./assets/style.css" />
+    <!-- UIkit CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/css/uikit.min.css"
+    />
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/js/uikit-icons.min.js"></script>
+
+    <title>Contact - Analiza Boehning</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1 class="uk-text-decoration-none">Analiza Boehning</h1>
+      <nav class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-left-sticky">
+          <ul class="uk-navbar-nav">
+            <li class="uk-active uk-text-bold">
+              <a href="index.html">home</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="uk-navbar-right">
+          <ul class="uk-navbar-nav">
+            <li class="uk-active uk-text-bold">
+              <a href="contact.html">contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div
+      class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
+      data-src="./assets/images/knitting.jpg"
+      uk-img
+    >
+      <h1 class="uk-text-bold">Stay in touch...</h1>
+      <h2>you can contact me below!</h2>
+    </div>
+    <h1 class="uk-heading-line uk-text-center"><span>contact</span></h1>
+    <!-- MY CONTACT INFO -->
+    <div class="uk-container uk-container-small">
+      <section id="contact" class="intro">
+        <ul class="uk-list uk-list-divider">
+          <li><button class="uk-button uk-button-secondary"><a>916-346-8477</a></button></li>
+          <li><button class="uk-button uk-button-secondary"><a>analizaboehning@gmail.com</a></button></li>
+          <li><button class="uk-button uk-button-secondary">
+            <a
+              href="https://www.linkedin.com/in/analiza-boehning-a09551229/"
+              class="link"
+              target="_blank"
+              >LinkedIn</a
+            ></button>
+          </li>
+          <li><button class="uk-button uk-button-secondary">
+            <a href="https://github.com/analizajb" class="link" target="_blank"
+              >GitHub</a
+            ></button>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <!-- CONTACT FORM -->
+    <div class="uk-container">
+      <form>
+        <fieldset class="uk-fieldset">
+          <legend class="uk-legend">Contact Form</legend>
+
+          <div class="uk-margin">
+            <input
+              class="uk-input"
+              type="text"
+              placeholder="Enter your first name"
+            />
+          </div>
+          <div class="uk-margin">
+            <input
+              class="uk-input"
+              type="text"
+              placeholder="Enter your last name"
+            />
+          </div>
+          <div class="uk-margin">
+            <input
+              class="uk-input"
+              type="text"
+              placeholder="Enter your email"
+            />
+          </div>
+
+          <div class="uk-margin">
+            <textarea
+              class="uk-textarea"
+              rows="5"
+              placeholder="Your Message"
+            ></textarea>
+          </div>
+        </fieldset>
+      </form>
+      <p uk-margin>
+        <button class="uk-button uk-button-secondary uk-button-large">
+          Submit
+        </button>
+      </p>
+    </div>
+
+    <footer>
+      <h3>❤️ Made with love by Analiza</h3>
+      <div>&copy; 2022 Analiza B.</div>
+    </footer>
+  </body>
+</html>

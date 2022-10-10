@@ -3,181 +3,319 @@
   <head>
     <link rel="stylesheet" href="./assets/style.css" />
     <title>Analiza Boehning</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- UIkit CSS -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/css/uikit.min.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
-      rel="stylesheet"
-    />
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/js/uikit-icons.min.js"></script>
   </head>
 
   <body>
     <!-- Header -->
     <header>
-      <h1>
-        <a href="/">Analiza Boehning</a>
-      </h1>
-      <div class="navbar">
-        <a href="#about-me">about me</a>
-        <a href="#work">work</a>
-        <a href="#contact">contact</a>
-        <a href="#resume">resume</a>
-      </div>
+      <h1 class="uk-text-decoration-none">Analiza Boehning</h1>
+      <nav class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-left-sticky">
+          <ul class="uk-navbar-nav">
+            <li class="uk-active uk-text-bold"><a href="#about">about</a></li>
+            <li class="uk-active uk-text-bold">
+              <a href="#projects">projects</a>
+            </li>
+            <li class="uk-active uk-text-bold"><a href="#resume">resume</a></li>
+          </ul>
+        </div>
+
+        <div class="uk-navbar-right">
+          <ul class="uk-navbar-nav">
+            <li class="uk-active uk-text-bold">
+              <a href="contact.html">contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
-    <div class="rounded">
-      <img
-        src="./assets/images/analiza-jb.JPG"
-        width="300px"
-        height="250px"
-        alt="Analiza-Boehning"
-      />
+    <div
+      class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
+      data-src="./assets/images/knitting.jpg"
+      uk-img
+    >
+      <h1 class="uk-text-bold">Welcome, I'm Analiza...</h1>
+      <h2>Full Stack Developer and ceaseless creator.</h2>
     </div>
+
     <!-- Main Section -->
-    <section id="about-me" class="about">
-      <h2 class="section-title primary-border">about me</h2>
 
-      <p>
-        Bootcamp student to become a full-stack web developer with an extensive
-        background in a variety of customer service roles. Recently earning a
-        certificate with UC Davis’ full-stack coding bootcamp, expanding my
-        skills to the most widely used tools such as JavaScript, MySQL, HTML,
-        CSS and many more. Known by previous employers to be a self-starter,
-        quick-learner and reliable member of the team. With each project, I am
-        motivated to think of user experience and allow mobile capabilities to
-        respond to growing demands. In my most recent project, I collaborated
-        with a team of three to build a garden application that allows users to
-        “create” a garden and share comments in the community of fellow
-        gardeners. I’m eager and excited to bring my quick creativity and
-        quality-driven work ethic to build better web experiences for users.
-        Feel free to connect with me as I'm actively searching for career
-        opportunities and love to learn about others!
-      </p>
-    </section>
-
-    <section id="work" class="intro">
-      <h2 class="section-title primary-border">work</h2>
-      <br />
-      <div class="projects">
-        <!--insert projects here according to accepance criteria-->
-        <p>
-          <a href="https://purly.herokuapp.com/" target="_blank">
-            <h3 class="title-project">Purly</h3>
-            <br />
-            <img
-              class="project-img"
-              alt="Pulry"
-              src="./assets/images/Purly.png"
-              width="800"
-              height="400"
-            />
-          </a>
-        </p>
-        <p>
-          <a href="https://garden-planner-90482.herokuapp.com/" target="_blank">
-            <h3 class="title-project">Garden Planner</h3>
-            <br />
-            <img
-              class="project-img"
-              alt="Garden Planner"
-              src="./assets/images/garden-planner-90482.herokuapp.com_zone (1).png"
-              width="800"
-              height="400"
-            />
-          </a>
-        </p>
-        <p>
-          <a href="https://github.com/analizajb/run-buddy" target="_blank">
-            <h3 class="title-project">Run Buddy</h3>
-            <br />
-            <img
-              class="project-img"
-              alt="Run Buddy cover photo"
-              src="./assets/images/hero-bg.jpg"
-              width="800"
-              height="400"
-            />
-          </a>
-        </p>
-        <p>
-          <a
-            href="file:///C:/Users/Home/OneDrive/Desktop/projects/professional-portfolio/fanpage.html"
-            target="_blank"
-          >
-            <h3 class="title-project">Queen Fanpage</h3>
-            <br />
-            <img
-              class="project-img"
-              alt="Queen Band"
-              src="./assets/images/queen-photo.jpg"
-              width="400"
-              height="400"
-            />
-          </a>
-        </p>
-        <p>
-          <a href=" " target="_blank">
-            <h3 class="title-project">Player Details</h3>
-            <br />
-            <img
-              class=" "
-              alt="Player-Details"
-              src="./assets/images/Screenshot (37).png"
-              width="400"
-              height="400"
-            />
-          </a>
-        </p>
-        <p>
-          <a href="https://analizajb.github.io/code-refactor/" target="_blank">
-            <h3 class="title-project">Horiseon</h3>
-            <br />
-            <img
-              class="project-img"
-              alt="Horiseon meeting"
-              src="./assets/images/analizajb.github.io_code-refactor_ (1).png"
-              width="400"
-              height="400"
-            />
-          </a>
+    <!-- About Section -->
+    <section>
+      <div class="uk-panel">
+        <h1 class="uk-heading-line uk-text-center"><span>about me</span></h1>
+        <img
+          class="uk-border-circle uk-align-left uk-margin-remove-adjacent"
+          width="300"
+          height="300"
+          src="./assets/images/analiza-pfp.jpg"
+          alt="knit"
+        />
+        <p class="about-me">
+          A Full Stack Developer that's committed to finding solutions to
+          complex problems with a flair for creativity and style. After recently
+          graduating from UC Davis Full Stack Coding bootcamp I've acquired
+          major skills like the usual HTML, CSS and JavaScript. Frameworks I
+          enjoy working with are React.js and I've recently started to learn
+          Typescript and Python. Among my technical skills I have a passion for
+          creativity, people and being a mother. I love to see the world through
+          my children's eyes and it inspires me to create a beautiful world for
+          them. This translates into growing my own produce and allowing them to
+          be apart of the process. Kids make great helpers for pulling weeds! I
+          love to get creative by sewing clothes, making my own plant support
+          system out of dried sunflower stalks in the garden and blogging my
+          life through Instagram. I enjoy connecting with people and often
+          attend library events and connect through social media to always leave
+          an opening for connection. I encourage you to click through my website
+          to get to know a little bit more about me including my professional
+          skills. Please don't hesitate to contact me through email or phone as
+          I enjoy connecting with others of all walks of life.
         </p>
       </div>
     </section>
 
-    <section id="contact" class="intro">
-      <h2 class="section-title primary-border">contact</h2>
-      <ul>
-        <li>
-          <a>916-346-8477</a>
-        </li>
-        <li>
-          <a>analizaboehning@gmail.com</a>
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/analiza-boehning-a09551229/"
-            class="link"
-            target="_blank"
-            >LinkedIn</a
-          >
-        </li>
-        <li>
-          <a href="https://github.com/analizajb" class="link" target="_blank"
-            >GitHub</a
-          >
-        </li>
-      </ul>
+    <section>
+      <h1 class="uk-heading-line uk-text-center"><span>techstack</span></h1>
+      <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+        <div>
+            <div class="uk-card-small uk-card-default uk-card-body">HTML</div>
+        </div>
+        <div>
+            <div class="uk-card-small uk-card-default uk-card-body">CSS</div>
+        </div>
+        <div>
+            <div class="uk-card-small uk-card-default uk-card-body">JavaScript</div>
+        </div>
+        <div>
+          <div class="uk-card-small uk-card-default uk-card-body">React.js</div>
+      </div>
+      <div>
+        <div class="uk-card-small uk-card-default uk-card-body">SQL</div>
+      </div>
+      <div>
+        <div class="uk-card-small uk-card-default uk-card-body">Node.js</div>
+    </div>
+    <div>
+      <div class="uk-card-small uk-card-default uk-card-body">Express.js</div>
+  </div>
+  <div>
+    <div class="uk-card-small uk-card-default uk-card-body">Mongo DB</div>
+</div>
+<div>
+  <div class="uk-card-small uk-card-default uk-card-body">Graph QL</div>
+</div>
+<div>
+  <div class="uk-card-small uk-card-default uk-card-body">Figma</div>
+</div>
+<div>
+  <div class="uk-card-small uk-card-default uk-card-body">Git</div>
+</div>
+    </div>
     </section>
+    <!-- Project Section -->
+    <section>
+      <h1 class="uk-heading-line uk-text-center"><span>projects</span></h1>
+
+      <div class="uk-section uk-section-muted">
+        <div class="uk-container">
+          <div class="uk-column-1-2 uk-column-divider">
+            <div>
+              <!-- PROJECT CARDS -->
+              <!-- PURLY -->
+              <div
+                class="uk-grid-small uk-child-width-expand@s uk-text-center"
+                uk-grid
+              >
+                <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                  <div class="uk-card-header">
+                    <div class="uk-grid-divider" uk-grid>
+                      <div class="uk-width-auto">
+                        <img
+                          class="uk-border-circle"
+                          width="150"
+                          height="300"
+                          src="./assets/images/knit.jpg"
+                          alt="knit"
+                        />
+                      </div>
+                      <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">
+                          Purly
+                        </h3>
+                        <p class="uk-text-meta uk-margin-remove-top">
+                          <time datetime="2016-04-01T19:00">August 2022</time>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="uk-card-body">
+                    <p>
+                      A solution to creative burn-out experienced by all
+                      knitters. Join a community of crafters to share in the
+                      accomplishment of completing projects.
+                    </p>
+                  </div>
+                  <div class="uk-card-footer">
+                    <a
+                      href="https://purly.herokuapp.com/"
+                      target="_blank"
+                      class="uk-button uk-button-text"
+                      >Learn more</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <!-- GARDEN PLANNER -->
+              <div
+                class="uk-grid-small uk-child-width-expand@s uk-text-center"
+                uk-grid
+              >
+                <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                  <div class="uk-card-header">
+                    <div class="uk-grid-divider" uk-grid>
+                      <div class="uk-width-auto">
+                        <img
+                          class="uk-border-circle"
+                          width="90"
+                          height="70"
+                          src="./assets/images/favicon (3).ico"
+                          alt="Garden Planner"
+                        />
+                      </div>
+                      <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">
+                          Garden Planner
+                        </h3>
+                        <p class="uk-text-meta uk-margin-remove-top">
+                          <time datetime="2016-04-01T19:00">June 2022</time>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="uk-card-body">
+                    <p>
+                      A community for gardeners to share their gardens and keep
+                      track of important plant info.
+                    </p>
+                  </div>
+                  <div class="uk-card-footer">
+                    <a
+                      href="https://garden-planner-90482.herokuapp.com/"
+                      target="_blank"
+                      class="uk-button uk-button-text"
+                      >Learn more</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <!-- PLAYER DETAILS -->
+              <div
+                class="uk-grid-small uk-child-width-expand@s uk-text-center"
+                uk-grid
+              >
+                <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                  <div class="uk-card-header">
+                    <div class="uk-grid-divider" uk-grid>
+                      <div class="uk-width-auto">
+                        <img
+                          class="uk-border-circle"
+                          width="80"
+                          height="80"
+                          src="./assets/images/player-details.png"
+                          alt="Player Details"
+                        />
+                      </div>
+                      <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">
+                          Player Details
+                        </h3>
+                        <p class="uk-text-meta uk-margin-remove-top">
+                          <time datetime="2016-04-01T19:00">April 2022</time>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="uk-card-body">
+                    <p>
+                      Baseball fans can search up their favorite player and
+                      retrieve specific stats on them.
+                    </p>
+                  </div>
+                  <div class="uk-card-footer">
+                    <a
+                      href="https://hectorromo06.github.io/player-details-app/"
+                      target="_blank"
+                      class="uk-button uk-button-text"
+                      >Learn more</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- RUN BUDDY -->
+              <div
+                class="uk-grid-small uk-child-width-expand@s uk-text-center"
+                uk-grid
+              >
+                <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                  <div class="uk-card-header">
+                    <div class="uk-grid-divider" uk-grid>
+                      <div class="uk-width-auto">
+                        <img
+                          class="uk-border-circle"
+                          width="80"
+                          height="auto"
+                          src="./assets/images/hero-bg.jpg"
+                          alt="Run Buddy"
+                        />
+                      </div>
+                      <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">
+                          Run Buddy
+                        </h3>
+                        <p class="uk-text-meta uk-margin-remove-top">
+                          <time datetime="2016-04-01T19:00">May 2022</time>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="uk-card-body">
+                    <p>
+                      Modified a landing page to look and function more
+                      user-friendly to motivate an influx of user sign-ups.
+                    </p>
+                  </div>
+                  <div class="uk-card-footer">
+                    <a
+                      href="https://github.com/analizajb/run-buddy"
+                      target="_blank"
+                      class="uk-button uk-button-text"
+                      >Learn more</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
     <br />
     <br />
     <section id="resume" class="intro">
-      <h2 class="section-title primary-border">resume</h2>
+      <h1 class="uk-heading-line uk-text-center"><span>resume</span></h1>
       <p>
         Resume can be found<a href="./assets/Res.docx.pdf"
           ><strong> here.</strong></a
@@ -191,5 +329,7 @@
     <footer>
       <h2>Made with love by Analiza</h2>
     </footer>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
   </body>
 </html>
